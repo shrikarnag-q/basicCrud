@@ -10,6 +10,7 @@ import (
 var DB *gorm.DB
 var err error
 
+// Change DB details as per your msql server
 const DNS = "root:admin123@tcp(127.0.0.1:3306)/product_crud?charset=utf8mb4&parseTime=True&loc=Local"
 
 func InitializeDB() {
